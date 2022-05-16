@@ -1,0 +1,40 @@
+{
+  "name": "discord-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "echo loading ai and hcaptcha bypass... (don't close the browser window) && cross-env TF_CPP_MIN_LOG_LEVEL=3 node --experimental-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "dependencies": {
+    "@cemalgnlts/mailjs": "^1.0.1",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^3.13.0",
+    "@tensorflow/tfjs-node": "^3.13.0",
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0",
+    "confusables": "^1.1.0",
+    "cross-env": "^7.0.3",
+    "enquirer": "^2.3.6",
+    "exit-hook": "^3.0.0",
+    "figlet": "^1.5.2",
+    "google-play-scraper": "^8.1.0",
+    "gradient-string": "^2.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "node-capmonster": "^0.2.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "random-username-generator": "^1.0.4",
+    "secure-random-password": "^0.2.3",
+    "ws": "^8.4.2",
+    "zlib-sync": "^0.1.7"
+  }
+}
